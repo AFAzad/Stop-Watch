@@ -1,6 +1,60 @@
 .App {
   text-align: center;
+ background-color: rgb(185, 189, 188);
+  height: 380px;
+  border-radius: 20px;
+  
 }
+.heading{
+  padding-top: 50px;
+
+}
+.name{
+  margin-bottom: 600px;
+}
+.start{
+  height: 60px;
+  width: 80px;
+  border-radius: 10px;
+  margin: 15px;
+  text-shadow: #282c34;
+  text-transform: inherit;
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+  
+}
+.start:disabled{
+  background-color: rgb(62, 58, 104);
+  color: yellow;
+}
+.stop{
+  height: 60px;
+  width: 80px;
+  border-radius: 10px;
+  margin: 15px;
+  text-shadow: #282c34;
+  text-transform: inherit;
+  background-color:red;
+  cursor: pointer;
+  color: black;
+
+}
+.reset{
+  height: 60px;
+  width: 80px;
+  border-radius: 10px;
+  margin: 15px;
+  text-shadow: #1847a5;
+  text-transform: inherit;
+  background-color: orange;
+  cursor: pointer;
+  color: black;
+  
+
+}
+
+
 
 .App-logo {
   height: 40vmin;
@@ -12,6 +66,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
